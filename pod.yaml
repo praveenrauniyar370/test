@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dobby-pod
+  labels:
+    app: dobby-app
+spec:
+  containers:
+  - name: dobby-container
+    image: thecasualcoder/dobby
